@@ -4,7 +4,7 @@ sudo apt install -y xfce4 xfce4-goodies
 curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt install nodejs
-npm install -g near-cli
+sudo npm install -g near-cli
 export NEAR_ENV=mainnet 
 sudo apt install -y firefox
 sudo apt install tightvncserver
