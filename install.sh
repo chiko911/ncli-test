@@ -18,3 +18,4 @@ EOF"
 chmod +x ~/.vnc/xstartup
 vncserver -kill :1
 vncserver
+sudo update-alternatives --config x-terminal-emulator
