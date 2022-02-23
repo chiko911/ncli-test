@@ -17,4 +17,4 @@ startxfce4 &
 EOF"
 chmod +x ~/.vnc/xstartup
 vncserver -kill :1
-Vncserver
+vncserver
